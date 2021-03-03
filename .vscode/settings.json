@@ -1,5 +1,5 @@
 {
-  "foam.openDailyNote.directory": "content/garden/journal",
+  "foam.openDailyNote.directory": "content/garden/",
   "foam.openDailyNote.titleFormat": "'Journal Entry, ' dddd, mmmm d",
   "foam.openDailyNote.filenameFormat": "'daily-note'-yyyy-mm-dd"
 }
