@@ -1,14 +1,15 @@
 module.exports = {
+  pathPrefix: "/backend-garden",
   plugins: [
     {
       resolve: `gatsby-theme-garden`,
       options: {
         contentPath: `${__dirname}/content/garden`,
-        rootNote: `/hello`,
+        rootNote: `/index`,
       },
     },
   ],
   siteMetadata: {
-    title: `Site title`,
+    title: `Ankeet's backend garden`,
   },
 }
