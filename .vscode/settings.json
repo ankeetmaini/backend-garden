@@ -1,5 +1,23 @@
 {
   "foam.openDailyNote.directory": "content/garden/",
   "foam.openDailyNote.titleFormat": "'Journal Entry, ' dddd, mmmm d",
-  "foam.openDailyNote.filenameFormat": "'daily-note'-yyyy-mm-dd"
+  "foam.openDailyNote.filenameFormat": "'daily-note'-yyyy-mm-dd",
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "files.defaultLanguage": "markdown",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true
+  },
+  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "markdown.preview.breaks": true
 }
