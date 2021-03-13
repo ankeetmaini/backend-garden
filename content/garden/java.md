@@ -14,3 +14,4 @@ products.addAll(List.of(
 ```
 
 - addAll function can add and use it with `List.of`
+- [[Instant]] seems to be a good util provided natively with `java.time` package
