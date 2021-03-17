@@ -1,6 +1,9 @@
 # lombok
 
 - it gives annotations to make life easier like getters and setters
+- it is a compile time code generator - more like babel in frontend world which changes the code during bundling process
+
+## compile time generation - how is it done?
 
 ## annotations
 
