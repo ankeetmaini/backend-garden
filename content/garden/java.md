@@ -1,5 +1,6 @@
 # java
-
+- `class` is the fundamental unit in java
+  - classes are located and loaded at runtime as needed`
 - use double quotes always
 - add members to a `List`
 
