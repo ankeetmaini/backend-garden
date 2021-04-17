@@ -20,7 +20,7 @@
     "**/public": true,
     "**/.cache": true
   },
-  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "foam.edit.linkReferenceDefinitions": "withoutExtensions",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true

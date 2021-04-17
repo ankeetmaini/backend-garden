@@ -1,4 +1,5 @@
 # java
+
 - `class` is the fundamental unit in java
   - classes are located and loaded at runtime as needed`
 - use double quotes always
@@ -16,3 +17,4 @@ products.addAll(List.of(
 
 - addAll function can add and use it with `List.of`
 - [[Instant]] seems to be a good util provided natively with `java.time` package
+- AtomicLong gives a thread safe way to generate unique ids and is present in the `java.util.concurrent` package
