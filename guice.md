@@ -31,5 +31,9 @@ public class SomeFactory {
 - now you can just use `SomeFactory` to get the actual instance and easily mock it for tests
 - easy
 
-
+- override the guice bindings https://stackoverflow.com/questions/483087/overriding-binding-in-guice
+  - trying this out to do test setup
+  - use the full production bindings but only replace session/db instead of mocking out full daos
+    - should work theoretically
+      - if it's used in an app where a certain dependency like sessionFactory is added via inheritance and not available via constructor override, then it becomes a problem - using guice override should solve it beautifully
 
